@@ -5,7 +5,7 @@ document.getElementById('search-button').addEventListener('click', () => {
 });
 
 async function fetchWeatherData(city) {
-    const apiKey = '8038d225a5bc41918ca140924242606'; // Replace 'your_api_key' with your actual API key
+    const apiKey = 'your_api_key'; // Replace 'your_api_key' with your actual API key
     const currentWeatherUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
     const forecastUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5`;
 
